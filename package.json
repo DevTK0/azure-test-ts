@@ -18,12 +18,11 @@
   "license": "ISC",
   "packageManager": "pnpm@10.6.5",
   "dependencies": {
-    "@azure/functions": "4.7.0",
-    "@types/node": "22.15.3",
+    "@azure/functions": "^4.7.0",
     "gramio": "^0.4.0",
     "typescript": "5.8.3"
   },
   "devDependencies": {
-    "ts-node": "10.9.2"
+    "@types/node": "^22.15.3"
   }
 }
