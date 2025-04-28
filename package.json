@@ -1,0 +1,29 @@
+{
+  "name": "azure-test-ts",
+  "version": "1.0.0",
+  "description": "Simple Telegram bot deployed as an Azure Function",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "func start",
+    "setup-webhook": "ts-node src/setup_webhook.ts"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "azure",
+    "functions"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.5",
+  "dependencies": {
+    "@azure/functions": "4.7.0",
+    "@types/node": "22.15.3",
+    "gramio": "^0.4.0",
+    "typescript": "5.8.3"
+  },
+  "devDependencies": {
+    "ts-node": "10.9.2"
+  }
+}
